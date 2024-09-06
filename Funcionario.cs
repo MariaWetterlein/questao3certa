@@ -12,4 +12,7 @@ abstract class Funcionario
 		Nome = nome;
 		SalarioBase = salarioBase;
 	}
-}
+
+	 public abstract double CalcularSalario();
+		 public abstract void RegistarPonto();
+}		 
