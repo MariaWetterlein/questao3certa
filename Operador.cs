@@ -4,9 +4,8 @@ namespace Funcionario;
 class Operador : Funcionario
  
  
- 
 {
-	public Operador(string nome, double salarioBase, string cargo) : base(nome, salarioBase, cargo) { }
+	public Operador(string nome, double salarioBase, string cargo) : base(nome, salarioBase, cargo) {}
 }
 public override double CalcularSalario()
 	{
